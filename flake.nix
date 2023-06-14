@@ -1,7 +1,6 @@
 {
   inputs = {
-    openwrt-imagebuilder.url = "github:astro/nix-openwrt-imagebuilder";
-    # openwrt-imagebuilder.url = "github:jfly/nix-openwrt-imagebuilder/fix-build";
+    openwrt-imagebuilder.url = "github:jfly/nix-openwrt-imagebuilder/issue-26";
   };
   outputs = { self, nixpkgs, openwrt-imagebuilder }: {
     packages.x86_64-linux.my-router =

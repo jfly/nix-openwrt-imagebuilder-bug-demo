@@ -35,15 +35,16 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1686736318,
-        "narHash": "sha256-VZfmbHvh762q1tG/xTyVoyIS0o4x5t+hnPwv/Otfeqo=",
-        "owner": "astro",
+        "lastModified": 1686769886,
+        "narHash": "sha256-y8f5lspbDHBt4Q4tJZ140ZVzJibgM3JDABvO7QscA3Q=",
+        "owner": "jfly",
         "repo": "nix-openwrt-imagebuilder",
-        "rev": "2a87d3ef9d0ec3c4f309fae35add8e4e157d537e",
+        "rev": "cb70543d0b56eb92acb3fca2c045d1787a25a58e",
         "type": "github"
       },
       "original": {
-        "owner": "astro",
+        "owner": "jfly",
+        "ref": "issue-26",
         "repo": "nix-openwrt-imagebuilder",
         "type": "github"
       }
