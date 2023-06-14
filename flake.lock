@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1686582075,
+        "narHash": "sha256-vtflsfKkHtF8IduxDNtbme4cojiqvlvjp5QNYhvoHXc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7e63eed145566cca98158613f3700515b4009ce3",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1672617983,
+        "narHash": "sha256-68WDiCBs631mbDDk4UAKdGURKcsfW6hjb7wgudTAe5o=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0fc9fca9c8d43edd79d33fea0dd8409d7c4580f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "openwrt-imagebuilder": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1686736318,
+        "narHash": "sha256-VZfmbHvh762q1tG/xTyVoyIS0o4x5t+hnPwv/Otfeqo=",
+        "owner": "astro",
+        "repo": "nix-openwrt-imagebuilder",
+        "rev": "2a87d3ef9d0ec3c4f309fae35add8e4e157d537e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "astro",
+        "repo": "nix-openwrt-imagebuilder",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "openwrt-imagebuilder": "openwrt-imagebuilder"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
